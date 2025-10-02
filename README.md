@@ -33,7 +33,7 @@ CRISP automates and optimizes the scheduling of campus recruitment interviews by
 1. Clone the repository:
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/Parakh20/CRISP
 cd crisp-platform
 ```
 
@@ -104,5 +104,4 @@ MIT License
 ---
 
 ## Contact
-
-[Your Name] – [Your Email]
+Parakh Sharma - sharmaparakh05@gmail.com
