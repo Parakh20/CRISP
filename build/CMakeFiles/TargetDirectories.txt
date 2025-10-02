@@ -1,0 +1,8 @@
+/home/parakh/crisp-platform/build/CMakeFiles/crisp_platform.dir
+/home/parakh/crisp-platform/build/CMakeFiles/copy_web_files.dir
+/home/parakh/crisp-platform/build/CMakeFiles/edit_cache.dir
+/home/parakh/crisp-platform/build/CMakeFiles/rebuild_cache.dir
+/home/parakh/crisp-platform/build/CMakeFiles/list_install_components.dir
+/home/parakh/crisp-platform/build/CMakeFiles/install.dir
+/home/parakh/crisp-platform/build/CMakeFiles/install/local.dir
+/home/parakh/crisp-platform/build/CMakeFiles/install/strip.dir
