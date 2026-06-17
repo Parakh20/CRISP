@@ -19,7 +19,26 @@ export function UploadForm({ onSubmit, isSubmitting }: UploadFormProps) {
 
   return (
     <form onSubmit={handleSubmit} className="flex flex-col gap-4 rounded-lg border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
-      <h2 className="text-lg font-semibold text-zinc-900 dark:text-zinc-50">Upload Schedule Inputs</h2>
+      <div className="flex items-center justify-between">
+        <h2 className="text-lg font-semibold text-zinc-900 dark:text-zinc-50">Upload Schedule Inputs</h2>
+        <div className="flex gap-3 text-xs text-zinc-500 dark:text-zinc-400">
+          <span>Sample files:</span>
+          <a
+            href="/samples/companies.csv"
+            download
+            className="underline underline-offset-2 hover:text-zinc-800 dark:hover:text-zinc-200"
+          >
+            companies.csv
+          </a>
+          <a
+            href="/samples/students.csv"
+            download
+            className="underline underline-offset-2 hover:text-zinc-800 dark:hover:text-zinc-200"
+          >
+            students.csv
+          </a>
+        </div>
+      </div>
 
       <label className="flex flex-col gap-1 text-sm font-medium text-zinc-700 dark:text-zinc-300">
         Companies CSV
